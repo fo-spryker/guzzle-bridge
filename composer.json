@@ -1,0 +1,34 @@
+{
+  "name": "fo-spryker/guzzle-bridge",
+  "description": "GuzzleBridge module",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "~6.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "FriendsOfSpryker\\": "src/FriendsOfSpryker/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FriendsOfSprykerTest\\": "tests/FriendsOfSprykerTest/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "process-timeout": 600
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "require-dev": {
+    "spryker/testify": "*"
+  }
+}
